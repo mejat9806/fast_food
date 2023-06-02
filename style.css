@@ -1,0 +1,196 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+    *{
+margin: 0;
+padding: 0;
+font-family: 'montserrat',sans-serif;
+background-color: black;
+list-style: none;
+box-sizing: border-box;
+position: relative;
+    }
+
+    .title,.food,h5,.fooddiv{
+        
+        font-size: 50px;
+        color: yellow;
+        background: white;
+        text-shadow: 2px 2px black ;
+    }
+    .title>span{
+        font-weight: 900;
+        font-size: 60px;
+        color: aquamarine;
+        background: white;
+        text-shadow: 2px 2px black;
+    }
+    .navipart{
+        display: flex;
+        justify-content: space-between;
+        padding: 20px;
+        background: white;
+        align-items: center;
+        top:0;
+        left: 0;
+        right: 0;
+        position: fixed;
+        z-index: 999;
+    }
+    .aa{
+        text-decoration: none; 
+        background: white; 
+        font-size: 20px;
+        font-weight: 600;
+        text-transform: uppercase; 
+        color: black;
+        color: inherit;
+  text-decoration: underline 0.15em rgba(255, 255, 255, 0);
+  transition: text-decoration-color 300ms;
+    }
+
+   
+    ul{
+       display: flex; 
+       gap: 100px;
+       background: white;
+       
+        
+    }
+    .navipart1::before{
+        color: yellow;
+        border: 2px;
+        background-color: aqua;
+        padding: 10px;
+        position: relative 
+    }
+
+.navlink1:hover{
+    text-decoration-color: hwb(182 0% 1%);
+    
+}
+.navlink2:hover{
+    text-decoration-color: hwb(182 0% 1%);
+    
+}
+.btn{
+    color: aliceblue;
+    
+  margin-left: 45%;
+  
+  
+
+    
+}
+.bp{
+    display: flex;
+    gap: 100px;
+    margin: 10% 10%;
+}
+.menu p{
+    color: aliceblue;
+    text-align: center;
+    padding: 10px ;
+    color: aliceblue; 
+    display: flex;
+    justify-content: center;
+    align-content: center;  
+}
+
+
+
+.menuitems{
+   
+    display: flex;
+    width: 40%;
+    flex-direction: column;
+    flex-shrink: 0;
+ 
+}
+img{
+    flex-shrink: 0;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 0 0 0 ;
+    width: 250px;
+    margin-bottom: 0px;
+}
+.head{
+    color: yellow;
+    text-align: center;
+    
+}
+.head>span{
+color: aqua;
+}
+
+
+
+.p-text{
+    color: yellow;
+    text-align: center;
+    
+}
+.p-text>span{
+color: aqua;
+}
+
+
+.fset{
+    display: flex;
+    gap: 100px;
+    margin: 10% 10%;
+    align-items: flex-end;
+}
+h3,.food,h5{
+    
+    text-align: center;
+    border: none;
+    background-color: aqua;
+}
+.drink{
+    display: flex;
+    gap: 100px;
+    margin: 10% 10%;
+    justify-content: center;
+    align-content: center;
+    
+}
+
+   
+
+h5{
+    color: aqua;
+    background: yellow;
+    padding:20px 0;
+}
+.fooddiv{
+   position: relative;
+
+   top: 110px;
+    
+}
+.foodspan{
+    background-color: aqua;
+}
+
+.shake2{
+    margin-top: 0;
+}
+footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0px 20px 30px;
+    
+    background-color: white;
+
+    
+    
+}
+footer a{
+   text-decoration: none;
+   color: black;
+   background-color: white;
+   
+    
+}
